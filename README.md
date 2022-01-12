@@ -12,14 +12,6 @@ A few months ago I uncovered my old but vast YuGiOh card collection from my yout
 ###The Script
 cardprice.py is a simple Python webdriver that iterates through an excel file (.xls) of YuGiOh cards and returns their current market price. The excel file must be formated like so:
 
-|    A      |      B       |       C      | ...
-   Name	     Card Edition	   Set Number
-DELINQUENT DUO	Unlimited Edition	MRL-039
-HARPIE'S FEATHER DUSTER	Unlimited Edition	SDD-003
-DARK MAGICIAN	Unlimited Edition	BPT-007
-BLUE-EYES WHITE DRAGON	Unlimited Edition	BPT-009
-BLUE-EYES WHITE DRAGON	Unlimited Edition	SDK-001
-SNATCH STEAL	Unlimited Edition	DB1-EN021
 ![image](https://user-images.githubusercontent.com/39141161/149043432-ddc8a3c7-6695-4b40-82ea-b3bf27ab0a39.png)
 
 ######Disclaimer: this is highly dependent on https://yugiohprices.com/'s html so any changes on their end will break this.
