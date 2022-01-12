@@ -1,15 +1,22 @@
 # YuGiOh Card Appraiser
 
 ####Language:Python
+
 ####Required libraries: selenium, pandas
+
 ####Required: chrome_webdriver.exe that supports your version of Chrome (https://chromedriver.chromium.org/downloads)
+
 ####Required: Microsoft Excel
+
 ####Required: A boat load of YuGiOh Cards
 
+
 ##Background 
+
 A few months ago I uncovered my old but vast YuGiOh card collection from my youth. While I've totally forgotten how to play, I figured it would be cool to see if they had appreciated in valuve any more than my aunt's beanie babies. So I plugged all my cards into an excel spreadsheet and then went to https://yugiohprices.com/ to see what I have got. This process was incredibly tedious, so I wrote this script.
 
 ###The Script
+
 cardprice.py is a simple Python webdriver that iterates through an excel file (.xls) of YuGiOh cards and returns their current market price. The excel file must be formated like so:
 
 ![image](https://user-images.githubusercontent.com/39141161/149043432-ddc8a3c7-6695-4b40-82ea-b3bf27ab0a39.png)
