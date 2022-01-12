@@ -5,9 +5,7 @@
 #### Required libraries: selenium, pandas
 
 #### Required: chrome_webdriver.exe that supports your version of Chrome (https://chromedriver.chromium.org/downloads)
-
 #### Required: Microsoft Excel
-
 #### Required: A boat load of YuGiOh Cards
 
 
